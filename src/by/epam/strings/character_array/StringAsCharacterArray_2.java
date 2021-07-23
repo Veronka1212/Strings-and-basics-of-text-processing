@@ -8,7 +8,7 @@ public class StringAsCharacterArray_2 {
         String songBeatles = "Say the word and you'll be free. Say the word and be like me. Say the word I'm thinking of. " +
                 "Have you heard the word is love? It's so fine, it's sunshine, It's the word, love, In the beginning " +
                 "I misunderstood, But now I've got it The word is good!";
-        String[] array = songBeatles.split("\s");
+        String[] array = songBeatles.split("\\s");
         String newSongBeatles = "";
 
         for (int i = 0; i < array.length; i++) {
